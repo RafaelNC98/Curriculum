@@ -107,7 +107,7 @@ footer {
     box-shadow: -2px 7px 5px 0px rgba(0,0,0,0.75);
     padding: 1rem;
     width: 40%;
-    max-height: 250px;
+    
     
 }
 
@@ -143,3 +143,45 @@ footer {
     font-size: 20px;
 }
 
+@media (max-width: 720px)
+{
+  .perfil {
+        display: block;
+    }
+
+  .img {
+        text-align: center;
+    }
+
+    .sobre-min {
+        margin: 0 auto;
+    }
+
+    .conteudos {
+        display: block;
+        
+    }
+
+    .cursos {
+        width: 75%;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .habilidades {
+        padding-top: 5px;
+        width: 75%;
+        margin: 0 auto;
+    }
+
+    footer {
+        height: 150px;
+    }
+
+}
+
+@media (max-width: 489px) {
+    footer {
+        height: 190px;
+    }
+}
